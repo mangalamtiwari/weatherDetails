@@ -1,0 +1,74 @@
+.container{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.topBar .cityName{
+    display: flex;
+    width: 250px;
+    height: 35px;
+    justify-content: center;
+    font-size: x-large;
+    border-radius: 25px;
+    /* text-decoration: dashed; */
+}
+.searchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+}
+.weatherIcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dataContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    display: inline-block;
+}
+.temperature{
+    justify-content: center;
+    font-size: 70px;
+    font-weight:bold;
+}
+.location{
+    justify-content: center;
+    font-size: 50px;
+    font-weight:600;
+    color:darkslategrey;
+}
+.element
+{
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    gap: 15px;
+}
+/* .icon{
+    margin: 15px;
+    } */
+.windSpeed{
+    font-size: larger;
+}
+.humidityPercentage{
+    font-size: larger;
+}
+.data{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 20px;
+}
